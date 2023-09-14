@@ -1,0 +1,51 @@
+@media (max-width: 1140px) {
+
+    .container {
+        width: 100%;
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .row {
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    /* body {
+        background-color: #222222;
+    }
+
+    .site-header,
+    .lessons {
+        background-color: #232946;
+        ;
+    } */
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-block: 3rem;
+        margin-bottom: 0;
+    }
+
+
+}
